@@ -1,3 +1,5 @@
+package com.example.rosem.getfacebookinfo;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -5,7 +7,6 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.rosem.getfacebookinfo.R;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -22,7 +23,6 @@ import org.json.JSONObject;
 //mk test2
 //master test
 //yunsuntest
-package com.example.rosem.getfacebookinfo;
 
 public class MainActivity extends AppCompatActivity {
     CallbackManager callbackManager;
